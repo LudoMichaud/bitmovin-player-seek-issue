@@ -2,7 +2,7 @@
 
 ## Issue description
 
-- When calling `player.seek(24.979331)` it sometimes jumps to `19.946666`
+- When calling `player.seek(24.979331)` it sometimes jumps to `19.946666` and `20`
 - Also discovered when making this example, calling `player.getCurrentTime()` from `EVENT.ON_SEEK` sometimes returns `0` – seems to happen for the initial call
 
 Although I have included `player.getCurrentTime()` following `player.seek(…)` (i.e. not inside an event), I’m not sure if the time is correct at that point. Feel free to ignore that value.
