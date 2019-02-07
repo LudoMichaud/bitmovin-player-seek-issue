@@ -7,7 +7,7 @@
 
 Although I have included `player.getCurrentTime()` following `player.seek(…)` (i.e. not inside an event), I’m not sure if the time is correct at that point. Feel free to ignore that value.
 
-I can add that clicking the button eight times before doing a refresh most of the times gives incorrect results similar to what is shown in the two example runs.
+I can add that clicking the button eight times before doing a refresh most of the times gives incorrect results similar to what is shown in the two example runs. During the example runs, I clicked the button with approximately a half second between each click.
 
 ## Setup
 
@@ -25,3 +25,7 @@ Then open http://localhost:3000
 ## Example run 2
 
 ![Example run 2](example-run-2.png)
+
+## Example run 3
+
+![Example run 3](example-run-3.png)
